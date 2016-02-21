@@ -7,7 +7,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.infodancer.atom</groupId>
   <artifactId>atom</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>0.0.2</version>
   <packaging>jar</packaging>
   <name>atom</name>
   <url>http://www.infodancer.org/atom</url>
@@ -43,4 +43,8 @@
         </plugin>
     </plugins>
   </build>  
+
+  <scm>
+    <tag>atom-0.0.2</tag>
+  </scm>
 </project>

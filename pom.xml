@@ -45,6 +45,8 @@
   </build>  
 
   <scm>
-    <tag>atom-0.0.2</tag>
+	 <connection>scm:git:http://matthew@infodancer.org/scm/git/atom</connection>
+	 <developerConnection>scm:git:http://matthew@infodancer.org/scm/git/atom</developerConnection>
+	 <tag>atom-0.0.2</tag>
   </scm>
 </project>

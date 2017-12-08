@@ -203,7 +203,7 @@ public class AtomEntry
 
 	public void addLink(AtomLink link)
 	{
-		this.links.add(link);
+		this.getLinks().add(link);
 	}
 	
 	public Collection<AtomContributor> getContributors()

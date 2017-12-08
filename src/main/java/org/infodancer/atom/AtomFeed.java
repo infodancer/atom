@@ -28,6 +28,20 @@ public class AtomFeed
 		this.entries.add(entry);
 	}
 
+	public void addLink(AtomLink link)
+	{
+		this.links.add(link);
+	}
+
+	public void addLink(String href, String rel, String type)
+	{
+		AtomLink link = new AtomLink();
+		link.setHref(href);
+		link.setRel(rel);
+		link.setType(type);
+		this.links.add(link);
+	}
+
 	@Deprecated
 	public Long getId()
 	{

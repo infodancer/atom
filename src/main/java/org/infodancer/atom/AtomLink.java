@@ -65,6 +65,13 @@ public class AtomLink
 			result.append(rel);
 			result.append("\"");
 		}
+
+		if (type != null)
+		{
+			result.append(" type=\"");
+			result.append(type);
+			result.append("\"");
+		}
 		result.append(" />\n");
 		return result.toString();
 	}

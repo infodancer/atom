@@ -186,24 +186,19 @@ public class AtomFeed
 			writer.write(link.toString());
 		}
 		
-		int entrycount = 0;
-		System.out.println("Exporting " + entries.size() + " entries...");
 		for (AtomEntry entry : entries)
 		{
 			try
 			{
 				writer.write(entry.toString());
 				writer.write("\n");
-				entrycount++;
 			}
 			
 			catch (Exception e)
 			{
 				e.printStackTrace();
 			}
-		}
-		System.out.println("Exported " + entrycount + " entries...");
-		
+		}		
 		writer.write("</feed>\n");
 		writer.flush();
 	}

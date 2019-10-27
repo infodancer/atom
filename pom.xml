@@ -6,7 +6,15 @@
   <packaging>jar</packaging>
   <name>atom</name>
   <url>https://github.com/infodancer/atom</url>
-  <description>A project to represent atom XML feeds as Java objects</description>  
+  <description>A project to represent atom XML feeds as Java objects</description>
+    
+  <licenses>
+	<license>
+    	<name>The Apache License, Version 2.0</name>
+    	<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+  	</license>
+  </licenses>
+  
   <dependencies>
       <dependency>
         <groupId>junit</groupId>

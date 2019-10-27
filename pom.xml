@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.infodancer</groupId>
   <artifactId>atom</artifactId>
-  <version>0.0.4-SNAPSHOT</version>
+  <version>0.0.4</version>
   <packaging>jar</packaging>
   <name>atom</name>
   <url>https://github.com/infodancer/atom</url>
@@ -19,6 +19,7 @@
   	<connection>scm:git:http://github.com/infodancer/atom.git</connection>
   	<developerConnection>scm:git:http://infodancer@github.com/infodancer/atom.git</developerConnection>
   	<url>http://github.com/infodancer/atom/tree/master</url>
+    <tag>atom-0.0.4</tag>
   </scm>
   <distributionManagement>
    <snapshotRepository>

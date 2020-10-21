@@ -3,6 +3,7 @@ package org.infodancer.atom;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.TimeZone;
 
 public class AtomUtility
 {
@@ -32,6 +33,8 @@ public class AtomUtility
 		if (date != null)
 		{
 			SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");
+			TimeZone tz = TimeZone.getTimeZone("GMT");
+			format.setTimeZone(tz);
 			return format.format(date);
 		}
 		else return "";
